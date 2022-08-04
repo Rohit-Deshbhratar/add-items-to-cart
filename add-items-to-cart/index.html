@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONLINE SHOP</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/add-items-to-cart.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="cart-container">
+      $0
+    </div>
+    <div id="user-data">
+      <form action="data/cartSubmit.json" method="post" id="cart-form">
+      <br>
+      <label for="name">Name</label>
+      <input type="text" name="user-name" id="">
+
+      <br>  
+      <label for="name">Email</label>
+      <input type="text" name="email" id="">
+      
+      <br>
+      <label for="name">Newsletter</label>
+      <input type="checkbox" name="newsletter" checked id="newsletter-checkbox">
+
+      <br>
+      <select name="newsletterFrequency" id="newsletter-frequency">
+        <option >-</option>
+        <option selected>Weekly</option>
+        <option >Monthly</option>
+      </select>
+      <br>
+      <button id="submit-cart">Submit</button>
+    </div>
+  </form>
+  <div id="feedback-message"></div>
+    <div id="container">
+      <br style = "clear: left;" />
+    </div>
+  </body>
+</html>

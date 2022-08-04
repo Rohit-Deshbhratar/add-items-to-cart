@@ -1,0 +1,50 @@
+body {
+  background-color: #eee;
+}
+
+#cart-container {
+  width: 100%;
+  background-color: #000;
+  color: #FFF;
+  padding: 12px;
+}
+
+#container {
+  background-color: #fff;
+  margin: 12px;
+  padding: 12px;
+}
+
+img {
+  height: 150px;
+  width: 250px;
+}
+
+.item {
+  width: 200px;
+  background-color: #ccc;
+  padding: 8px;
+  float: left;
+  margin: 4px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item .name {
+  font-size: 24px;
+}
+
+.item .price {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}       
+
+.item .more-info {
+    display: none;
+}
+
+#newsletter-frequency {
+  display: none;
+}
